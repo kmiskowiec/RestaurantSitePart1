@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Contact Us</title>
+		<title>Contact Us</title>						
+					<link href="restaurantStyles.css" rel="stylesheet" type="text/css" >
+					<style>
+}
+					</style>
 	</head>
 	<body>
-	<div id="title">
-		<h1> Miskowiec's Muchies</h1>
-		</div>
+		<h1> Miskowiec's Munchies</h1>
+		
 		<div id="navigation">
 		<hr />
-		<p><a href="index.html" target="_blank">Home</a>
-		  <a href="Menu.html" Target="_blank">Menu</a>
-		  <a href="contactUs.html" target="_blank">Contact Us</a></p>		  
+		<p><a href="index.html" target="_self">Home</a>
+		  <a href="Menu.html" Target="_self">Menu</a>
+		  <a href="contactUs.html" target="_self">Contact Us</a></p>		  
 		<hr />
 		</div>
 		<form action="submit.html" method="POST">
-		<label for="FullName">Name:</label> <br />
-		<input type="text" id="FullName" name="fullName"> <br />
-		<label for="Email">Email:</label><br />
-		<input type="text" id="Email" name="Email"> <br />
-		<label for="phone">Phone Number:</label><br />
-		<input ttpe="text" id="phone" name="phone"> <br />
-		<label for="contact">Reason for Inquiry:</label><br />
-		<select id="contact" name="contact">
+		<label for="FullName" ><b>Name:</b></label> 
+		<input type="text" id="FullName" name="fullName"><br /> 
+		<label for="Email"><b>Email:</b></label>
+		<input type="text" id="Email" name="Email"><br />
+		<label for="phone"><b>Phone Number:</b></label>
+		<input ttpe="text" id="phone" name="phone"><br />
+		<label for="contact"><b>Reason for Inquiry:</b></label>
+		<select id="contact" name="contact"><br />
 		<option value="default" selected>--Catering--</option>
 		<option value="PriveParty">Private Party</option>
 		<option value="Feedback">Feedback</option>
 		<option value="Other">Other</option>
 		</select>
 		<br />
-		<label for="info">Additional Information</label><br />
+		<label for="info"><b>Additional Information</b></label>
 		<textarea id="info"></textarea>
 		<br />
-		<label>Have you been to the restaurant?</label>
+		<label><b>Have you been to the restaurant?</b></label>
 			<input type="radio" id=”choice2” name=”questionnaire” value=”no”>
 			<label for=”choice2”>No</label>
 			<input type="radio" id=”choice1” name=”questionnaire” value=”yes”>
@@ -40,7 +43,7 @@
 			<br />
 		
 		<br />
-			<label for "Day">Best days to contact you:</label>
+			<label for "Day"><b>Best days to contact you:</b></label>
 				<input type="checkbox" id=”Monday” name=”Day" value=”Monday”> 
 				<label for=”Monday”>M</label>
 				<input type="checkbox" id=”Tuesday” name=”Day” value=“Tuesday”>
@@ -51,15 +54,15 @@
 				<label for=”Thursday”>Th</label>
 				<input type="checkbox" id=”Friday” name=”Day” value=”Friday”>
 				<label for=”Friday”>F</label><br />
-		<input type="submit" name="SendRequest" value="Send Request">
-		<hr />
-		<div id="footer">
-		<hr />	
+				<input type="submit" name="SendRequest" value="Send Request"></form>
+		
+
+		<br />
 				<footer>	
 					<p>5454 Burger lane,Burger Town, Minnesota, 66459</p>
 					<p>Telephone number:542-864-7878</p>
 				</footer>	
-			</div>	
+			
 	</body>
 
 
